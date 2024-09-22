@@ -21,6 +21,14 @@
         android:orientation="horizontal">
 
         <Button
+            android:id="@+id/previous_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/previous_button"
+            app:icon="@drawable/arrow_left"
+            app:iconGravity="start" />
+
+        <Button
             android:id="@+id/true_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -39,6 +47,7 @@
             android:text="@string/next_button"
             app:icon="@drawable/arrow_right"
             app:iconGravity="end" />
+
 
     </LinearLayout>
 </LinearLayout>
